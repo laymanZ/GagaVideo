@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/index_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    <TextView
+        android:text="@string/launch_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_64sp"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/launch_msg"
+        android:textSize="@dimen/text_16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

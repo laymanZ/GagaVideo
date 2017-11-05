@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TimeVideo</string>
+
+
+    <!--底部导航栏-->
+    <string name="bottombar_index">首页</string>
+    <string name="bottombar_attention">关注</string>
+    <string name="bottombar_notify">通知</string>
+    <string name="bottombar_my">我的</string>
+
+    <!--启动页面-->
+    <string name="launch_main">时  光</string>
+    <string name="launch_msg">用眼睛,发现精彩</string>
+</resources>

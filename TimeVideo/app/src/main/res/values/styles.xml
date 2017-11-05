@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <!-- AppCompatActivity设置全屏-->
+    <style name="Theme.AppCompat.Light.NoActionBar" parent="@style/Theme.AppCompat">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- 使用ToolBar需要这两句话-->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>
