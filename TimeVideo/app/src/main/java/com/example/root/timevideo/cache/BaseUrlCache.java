@@ -13,6 +13,7 @@ public enum BaseUrlCache
     {
         mCache.put("BASE_URL_TIME", "https://api-m.mtime.cn/");
         mCache.put("BASE_URL_TICKET", "https://ticket-api-m.mtime.cn/");
+        mCache.put("","");
     }
 
     public Map<String, String> getCache()
