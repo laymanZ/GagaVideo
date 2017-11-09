@@ -17,5 +17,8 @@ public interface NetService
     @GET("https://api-m.mtime.cn/PageSubArea/HotPlayMovies.api?")
     Observable<OnTicketSale> getTicketSaling(@Query("locationId") int locationId);
 
+    /**
+     *
+     * */
 
 }

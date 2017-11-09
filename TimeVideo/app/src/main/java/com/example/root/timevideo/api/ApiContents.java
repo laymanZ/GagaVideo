@@ -8,6 +8,7 @@ package com.example.root.timevideo.api;
 public class ApiContents
 {
 
+//    public static final String randomPic = "https://picsum.photos/1080/1920/?image=";
     public static final String randomPic = "https://picsum.photos/400/800/?image=";
 
     public static class LocationId
